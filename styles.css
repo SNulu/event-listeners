@@ -142,14 +142,14 @@ input[type="button"] {
   padding: 0;
 }
 
-#add-guest .guest {
+#add-guest .guest-list {
   list-style: none;
   margin: 0;
   padding: 4px;
   text-align: left;
 }
 
-#add-guest .guest:nth-child(even) {
+#add-guest .guest-list li:nth-child(even) {
   background: tomato;
 }
 
